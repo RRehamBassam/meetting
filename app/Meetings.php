@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Meetings extends Model
 {
-    //
+    protected $table = 'mettings';
 }
